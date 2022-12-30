@@ -1,6 +1,7 @@
 ---
 title: MySQL基础 
 date: 2022-12-29
+sidebarDepth: 3
 tags:
  - MySQL
 categories:

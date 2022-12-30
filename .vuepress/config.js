@@ -1,5 +1,5 @@
 module.exports = {
-  base: '',
+  base: '/blog/',
   "title": "Find me",
   "description": "desc",
   "dest": "public",
@@ -22,6 +22,7 @@ module.exports = {
   "theme": "reco",
   "themeConfig": {
     mode: "dark",
+    huawei: true,
     subSidebar: "auto",
     "nav": [
       {
@@ -39,39 +40,38 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
-          }
-        ]
-      },
-      {
-        "text": "Contact",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "GitHub",
-            "link": "https://github.com/recoluan",
-            "icon": "reco-github"
+            "text": "Fight！2023",
+            "link": "/docs/yy2023/"
           }
         ]
       }
+      // {
+      //   "text": "Contact",
+      //   "icon": "reco-message",
+      //   "items": [
+      //     {
+      //       "text": "GitHub",
+      //       "link": "https://github.com/recoluan",
+      //       "icon": "reco-github"
+      //     }
+      //   ]
+      // }
     ],
     "sidebar": {
-      "/docs/theme-reco/": [
+      "/docs/yy2023/": [
         "",
-        "theme",
-        "plugin",
-        "api"
-      ]
+        // "test",
+        "test"
+      ] 
     },
     "type": "blog",
     "blogConfig": {
       "category": {
-        "location": 2,
+        "location": 3,
         "text": "Category"
       },
       "tag": {
-        "location": 3,
+        "location": 5,
         "text": "Tag"
       }
     },
@@ -96,7 +96,7 @@ module.exports = {
     "author": "Ray",
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
-    "startYear": "2023"
+    "startYear": "2022"
   },
   "markdown": {
     "lineNumbers": true
