@@ -1,4 +1,5 @@
 module.exports = {
+  "base": '/blog/',
   "title": "大哥成的移动城堡",
   "description": "desc",
   "dest": "public",
