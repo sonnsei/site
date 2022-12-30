@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 找到你的爱和热爱
-tagline: A Prayer for the Wild at Heart Kept in Cages.
+tagline: A prayer for the wild at heart kept in cages.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
