@@ -9,6 +9,8 @@ npm run build
 # 进入生成的文件夹
 cd public
 
+echo 'tinman.top' > CNAME
+
 git init
 git add -A
 git commit -m 'deploy'
