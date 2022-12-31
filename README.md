@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 找到你的爱和热爱
-tagline: A prayer for the wild at heart kept in cages.
+tagline: what turns you on? what lights you up? 
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
@@ -72,9 +72,6 @@ features:
   border-right: 3px solid #fff;
   border-top: 3px solid #fff;
   transform: rotate(135deg);
-  body{
-    background-image: url("https://img-blog.csdnimg.cn/img_convert/6602d9cf3ab2ce79293484b2b871138f.gif");
-  } 
  };
 </style>
 

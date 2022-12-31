@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/blog/',
+  base: '',
   "title": "Find me",
   "description": "desc",
   "dest": "public",
@@ -22,7 +22,8 @@ module.exports = {
   "theme": "reco",
   "themeConfig": {
     mode: "dark",
-    huawei: true,
+    modePicker: false,
+    // huawei: true,
     subSidebar: "auto",
     "nav": [
       {
@@ -40,8 +41,8 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "Fight！2023",
-            "link": "/docs/yy2023/"
+            "text": "我们意念合一",
+            "link": "/docs/the-glory-road/"
           }
         ]
       }
@@ -58,10 +59,10 @@ module.exports = {
       // }
     ],
     "sidebar": {
-      "/docs/yy2023/": [
+      "/docs/the-glory-road/": [
         "",
         // "test",
-        "test"
+        "plan2023"
       ] 
     },
     "type": "blog",
@@ -102,6 +103,17 @@ module.exports = {
     "lineNumbers": true
   },
   plugins: [
+        ['@vuepress-reco/vuepress-plugin-bgm-player',{
+          audios: [
+            // 本地文件示例
+            {
+            name: 'The Other Side Of Paradise',
+            artist: 'Glass Animals',
+            url: '/bgm/TheOtherSideOfParadise.mp3',
+            cover:'/bgm/TheOtherSideOfParadiseCover.png'
+            }
+          ]  
+        }]
     // [
     //   '@vuepress-reco/vuepress-plugin-kan-ban-niang',{
     //     theme: [
@@ -149,16 +161,8 @@ module.exports = {
     //     },
     //   ]
     // }],
-    // ["@vuepress-reco/vuepress-plugin-bgm-player",{
+    // "@vuepress-reco/vuepress-plugin-bgm-player",{
     //     audios: [
-    //       // 本地文件示例
-    //       // {
-    //       //   name: '장가갈 수 있을까',
-    //       //   artist: '咖啡少年',
-    //       //   url: '/bgm/1.mp3',
-    //       //   cover: '/bgm/1.jpg'
-    //       // },
-    //       // 网络文件示例
     //       {
     //         name: 'The Other Side Of Paradise',
     //         artist: 'Glass Animals',
