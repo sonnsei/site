@@ -5,7 +5,7 @@ sidebarDepth: 3
 tags:
  - MySQL
 categories:
- - 软件工程师
+ - 混口饭吃
 ---
 
 ## 1. 数据库操作

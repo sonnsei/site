@@ -41,7 +41,7 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "我们意念合一",
+            "text": "意念合一",
             "link": "/docs/the-glory-road/"
           }
         ]
@@ -60,7 +60,7 @@ module.exports = {
     ],
     "sidebar": {
       "/docs/the-glory-road/": [
-        "",
+        // "",
         // "test",
         "plan2023"
       ] 

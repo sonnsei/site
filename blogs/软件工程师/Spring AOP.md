@@ -4,7 +4,7 @@ date: 2022-12-29
 tags:
  - Spring
 categories:
- - 软件工程师
+ - 混口饭吃
 ---
 
 本文的主要目的是整理总结SpringAOP相关的知识，理解掌握文中内容后，日常开发工作中大多数与SpringAOP使用相关的内容应不再成为阻碍，同时本文对`ProxyFactoryBean`的使用做了简单介绍，帮助大家了解一些基于Spring的框架中代理的实现
