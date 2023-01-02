@@ -41,7 +41,7 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "意念合一",
+            "text": "客从何处来",
             "link": "/docs/the-glory-road/"
           }
         ]
