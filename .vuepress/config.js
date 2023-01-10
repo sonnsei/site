@@ -17,7 +17,15 @@ module.exports = {
         "name": "viewport",
         "content": "width=device-width,initial-scale=1,user-scalable=no"
       }
-    ]
+    ],
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.css'
+    }],
+    ['link', {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css"
+    }]
   ],
   "theme": "reco",
   "themeConfig": {
@@ -41,7 +49,7 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "客从何处来",
+            "text": "笑问客从何处来",
             "link": "/docs/the-glory-road/"
           }
         ]
@@ -99,8 +107,14 @@ module.exports = {
     "record": "xxxx",
     "startYear": "2022"
   },
-  "markdown": {
-    "lineNumbers": true
+  markdown: {
+    lineNumbers: true, // 代码行号
+    extendMarkdown: md => {
+            md.set({
+                html: true
+            })
+            md.use(require('markdown-it-katex'), {"throwOnError" : false, "errorColor" : " #cc0000"})
+        }
   },
   plugins: [
         ['@vuepress-reco/vuepress-plugin-bgm-player',{
